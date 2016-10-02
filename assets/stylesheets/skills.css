@@ -1,0 +1,171 @@
+#skills {
+  margin: 2em 0; }
+  #skills .ss {
+    border: 1px solid #fff;
+    background-color: #fff;
+    position: relative;
+    top: 2em; }
+  #skills .progress {
+    height: 7px; }
+  #skills .perc {
+    margin-left: 24em;
+    margin-top: -2em; }
+  @media screen and (min-device-width: 320px) and (max-device-width: 769px) {
+    #skills .perc {
+      margin-left: 17em;
+      margin-top: -2em; } }
+
+#portfolio {
+  padding: 4em 0; }
+  #portfolio .selects {
+    position: relative;
+    left: 35%;
+    top: 2em;
+    margin-bottom: 2em;
+    cursor: pointer; }
+    #portfolio .selects .lines {
+      border-bottom: 4px solid #fff;
+      padding: 1em;
+      color: #2f2f2f; }
+      #portfolio .selects .lines:hover {
+        border-bottom: 4px solid #26cc63; }
+  #portfolio .thumb1 {
+    margin: 3em -1em;
+    height: 501px;
+    width: 493px;
+    border-radius: 0px;
+    background-color: #4c545f; }
+    #portfolio .thumb1 .text {
+      position: relative;
+      top: 22em;
+      color: #fff;
+      font-weight: 400; }
+      #portfolio .thumb1 .text .fa {
+        color: #00cc66;
+        border: 1px solid #445f5f;
+        padding: 15px;
+        margin: 25px 4px; }
+  #portfolio .thumb2 {
+    margin: 3em -2em;
+    height: 230px;
+    width: 300px;
+    border-radius: 0px;
+    background-color: #d3d3d3; }
+  #portfolio .thumb3 {
+    margin: 3em -2em;
+    height: 230px;
+    width: 300px;
+    border-radius: 0px;
+    background-color: #d3d3d3; }
+  @media screen and (min-device-width: 320px) and (max-device-width: 769px) {
+    #portfolio .thumb1 {
+      margin: 3em -3em;
+      height: 501px;
+      width: 383px;
+      border-radius: 0;
+      background-color: #4c545f; }
+    #portfolio .thumb2 {
+      margin: 3em -4em;
+      height: 230px;
+      width: 300px;
+      border-radius: 0;
+      background-color: #d3d3d3; }
+    #portfolio .thumb3 {
+      margin: 3em -4em;
+      height: 230px;
+      width: 300px;
+      border-radius: 0;
+      background-color: #d3d3d3; } }
+
+#contact .msg {
+  border: 1px solid #fff;
+  background-color: #fff;
+  margin-top: 2em; }
+  #contact .msg .set {
+    margin-left: 28px;
+    padding: 11px 0px; }
+#contact #logbox {
+  top: 86px;
+  margin-left: 8px;
+  background-color: #fff; }
+#contact #signup {
+  position: relative;
+  right: 2em; }
+#contact h1, #contact input {
+  font-family: "Open Sans", Helvetica, sans-serif; }
+#contact .input {
+  width: 75%;
+  height: 50px;
+  display: block;
+  margin: 0 auto 15px;
+  padding: 0 15  px;
+  border: none;
+  border-bottom: 2px solid #ebebeb; }
+#contact .input:focus {
+  outline: none;
+  border-bottom-color: #3CC !important; }
+#contact .input:hover {
+  border-bottom-color: #dcdcdc; }
+#contact .input:invalid {
+  box-shadow: none; }
+#contact .pass:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px white inset; }
+#contact .inputButton {
+  position: relative;
+  width: 28%;
+  height: 50px;
+  display: block;
+  margin: 30px 52px;
+  color: white;
+  background-color: #3CC;
+  border: none;
+  -webkit-box-shadow: 0 5px 0 #2CADAD;
+  -moz-box-shadow: 0 5px 0 #2CADAD;
+  box-shadow: 0 5px 0 #2CADAD; }
+#contact .inputButton:hover {
+  top: 2px;
+  -webkit-box-shadow: 0 3px 0 #2CADAD;
+  -moz-box-shadow: 0 3px 0 #2CADAD;
+  box-shadow: 0 3px 0 #2CADAD; }
+#contact .inputButton:active {
+  top: 5px;
+  box-shadow: none; }
+#contact .inputButton:focus {
+  outline: none; }
+#contact .fill1 {
+  margin: 3em 0em;
+  padding: 0px 2em;
+  color: #7e7e7e; }
+  #contact .fill1 .fitting {
+    padding: 12px 0; }
+#contact .fill2 {
+  margin: 3em 0;
+  padding: 0px 2em; }
+  #contact .fill2 .fitting {
+    padding: 12px 0; }
+#contact .mapss {
+  overflow: hidden;
+  height: 190px;
+  width: 366px;
+  margin: 0em -16px; }
+@media screen and (min-device-width: 320px) and (max-device-width: 769px) {
+  #contact .fill1 {
+    margin: 3em -14px;
+    /* padding: 0px 2em; */
+    color: #7e7e7e; }
+  #contact .fill2 {
+    margin: 3em 14px;
+    padding: 0px 2em;
+    position: relative;
+    /* left: 2%; */ }
+    #contact .fill2 .fitting {
+      padding: 12px;
+      text-indent: -77px;
+      margin-left: 2em; }
+  #contact .mapss {
+    overflow: hidden;
+    height: 190px;
+    width: 283px;
+    margin: 0em -16px; } }
+
+/*# sourceMappingURL=skills.css.map */

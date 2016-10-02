@@ -1,0 +1,169 @@
+#about {
+
+  border: 1px solid #000;
+  // height: 100vh; 
+  background-color: #fff;
+
+  .thumbnail {
+
+    margin: 3em 3em;  
+    height: 358px;
+    width: 300px;
+    border-radius: 0px;
+    background-color: #d3d3d3;
+  }
+
+  .name {
+
+    position: relative;
+    top: 3em;
+    border-bottom: 1px solid #d4d5d6;
+
+    .label {
+      
+      background-color: #26cc63; 
+      padding: 7px;
+
+      &::after {
+        content: '';
+        bottom: 93px;
+        left: 7px;
+        border-top: 14px solid #26cc63;
+        border-left: 0 solid transparent;
+        border-right: 9px solid transparent;
+        position: absolute;
+        width: 0;
+        height: 0;
+      }
+    }
+  }
+
+  h3 {
+
+    position: relative;
+    bottom: 15px; 
+  }
+
+  .info .vacation {
+
+    background-color: #26cc63;
+    width: 72%;
+    text-align: center;
+    color: #fff; 
+  }
+
+  @media screen and (min-device-width : 320px) and (max-device-width : 769px) {
+
+    .thumbnail {
+
+      margin: 3em 1em;
+      height: 358px;
+      width: 300px;
+      border-radius: 0;
+      background-color: #d3d3d3;
+    }
+
+    .info .vacation {
+
+      background-color: #26cc63;
+      width: 117%;
+      text-align: center;
+      color: #fff; 
+    }
+  }
+}
+
+#icons {
+
+  height: 81px;
+  background-color: #26cc63;
+
+  .iconss {
+
+    position: relative;
+    left: 13%;
+    top: 38%;
+    color: #fff;
+
+    .fa {
+
+      font-size: 1.4em;
+      padding-left: 4em;
+    }
+  }
+
+  @media screen and (min-device-width : 320px) and (max-device-width : 769px) {
+    
+    
+    .iconss {
+      left: 0%;
+      top: 38%;
+      color: #fff;
+    }
+  }
+}
+
+#resume {
+
+  .res {
+
+    // position: relative;
+    // top: 3em;
+    margin: 3em 23em;
+    padding: 1em 3em;
+    font-weight: bold;
+  }
+
+  .p1 {
+
+    text-indent: 5em;
+    font-size: 1.3em;
+  }
+
+  .p2 {
+
+    text-indent: 2em;
+    font-size: 1.3em; 
+  }
+
+  .p3 {
+
+    text-indent: 4em;
+    font-size: 1.3em; 
+  }
+
+  .p4 {
+
+    text-indent: 16em;
+    font-size: 1.3em;
+  }
+
+  @media screen and (min-device-width : 320px) and (max-device-width : 769px) {
+    
+    
+    .res {
+      margin: 3em 15em;
+      padding: 1em 3em;
+      font-weight: 700;
+    }
+  }
+}
+
+#foot {
+
+  height: 100px;
+
+  .iconss {
+
+    left: 18%;
+    top: 44%;
+    color: burlywood;
+    position: relative;
+
+    .fa {
+
+      font-size: 1.4em;
+      padding-left: 3em;
+    }
+  }
+}

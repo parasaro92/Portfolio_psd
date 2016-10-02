@@ -1,0 +1,31 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
+  width: 100%; }
+
+header .navbar-default {
+  height: 520px; }
+header .navbar-default .navbar-nav > li > a {
+  color: #FFF;
+  font-weight: 700; }
+  header .navbar-default .navbar-nav > li > a:hover {
+    border-bottom: 1px solid #26cc63;
+    color: #fff; }
+header nav.navbar {
+  margin-bottom: 0;
+  background-color: #4c545f;
+  border-width: 0 0 1px 0;
+  border-color: transparent; }
+  header nav.navbar a.navbar-brand .name {
+    color: #F1B95E;
+    font-size: 1.2em;
+    margin-left: 3em; }
+  header nav.navbar a.navbar-brand.navbar-default .navbar-nav > li > a, header nav.navbar a.navbar-brand.navbar-default .navbar-nav > li > a:hover, header nav.navbar a.navbar-brand.navbar-default .navbar-nav > li > a:visited, header nav.navbar a.navbar-brand.navbar-default .navbar-nav > li > a:link {
+    border-bottom: 3px solid #26cc63;
+    color: #FFF;
+    transition: border-color 0.3s ease-in;
+    background-color: transparent; }
+  header nav.navbar a.navbar-brand.navbar-default .navbar-nav > li > a:hover {
+    border-color: rgba(255, 255, 255, 0.4); }
+
+/*# sourceMappingURL=header.css.map */

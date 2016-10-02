@@ -1,0 +1,281 @@
+#skills {
+
+  // text-align: center;
+  margin: 2em 0;
+
+  .ss {
+
+    border: 1px solid #fff;
+    background-color: #fff;
+    position: relative;
+    top: 2em;
+  }
+
+  .progress {
+
+    height: 7px;
+  }
+
+  .perc {
+
+    margin-left: 24em;
+    margin-top: -2em;
+  }
+
+  @media screen and (min-device-width : 320px) and (max-device-width : 769px) {
+    
+    .perc {
+
+      margin-left: 17em;
+      margin-top: -2em;
+    }
+  }
+}
+
+#portfolio {
+
+  padding: 4em 0;
+
+  .selects {
+
+    position: relative;
+    left: 35%;
+    top: 2em;
+    margin-bottom: 2em;
+    cursor: pointer;
+
+    .lines {
+
+      border-bottom: 4px solid #fff;
+      padding: 1em;
+      color: #2f2f2f;
+
+      &:hover {
+
+        border-bottom: 4px solid #26cc63; 
+      }
+    }
+  }
+
+  .thumb1 {
+
+    margin: 3em -1em;  
+    height: 501px;
+    width: 493px;
+    border-radius: 0px;
+    background-color: #4c545f;
+
+    .text {
+
+      position: relative;
+      top: 22em;
+      color: #fff;
+      font-weight: 400;
+
+      .fa {
+
+        color: #00cc66;
+        border: 1px solid #445f5f;
+        padding: 15px;
+        margin: 25px 4px;
+      }
+    }
+  }
+
+  .thumb2 {
+
+    margin: 3em -2em;  
+    height: 230px;
+    width: 300px;
+    border-radius: 0px;
+    background-color: #d3d3d3;
+  }
+
+  .thumb3 {
+
+    margin: 3em -2em;  
+    height: 230px;
+    width: 300px;
+    border-radius: 0px;
+    background-color: #d3d3d3;
+  }
+
+   @media screen and (min-device-width : 320px) and (max-device-width : 769px) {
+    
+    .thumb1 {
+      margin: 3em -3em;
+      height: 501px;
+      width: 383px;
+      border-radius: 0;
+      background-color: #4c545f;
+    }
+
+    .thumb2 {
+      margin: 3em -4em;
+      height: 230px;
+      width: 300px;
+      border-radius: 0;
+      background-color: #d3d3d3;
+    }
+
+    .thumb3 {
+      margin: 3em -4em;
+      height: 230px;
+      width: 300px;
+      border-radius: 0;
+      background-color: #d3d3d3;
+    }
+  }
+}
+
+#contact {
+
+  .msg {
+
+    border: 1px solid #fff;
+    background-color: #fff;
+    margin-top: 2em;
+
+    .set {
+
+      margin-left: 28px;
+      padding: 11px 0px;
+    }
+  }
+
+  #logbox {
+    // padding: 10px;
+    // margin: 50px auto;
+    // width: 340px;
+    top: 86px;
+    margin-left: 8px;
+    background-color: #fff;
+    // -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    // -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    // box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  }
+
+  #signup {
+
+    position: relative;
+    right: 2em;
+  }
+
+  // h1 {
+  //   text-align: center;
+  //   font-size: 175%;
+  //   color: #757575;
+  //   font-weight: 300;
+  // }
+
+  h1, input {
+    font-family: "Open Sans", Helvetica, sans-serif;
+  }
+
+  .input {
+    width: 75%;
+    height: 50px;
+    display: block;
+    margin: 0 auto 15px;
+    padding: 0 15  px;
+    border: none;
+    border-bottom: 2px solid #ebebeb;
+  }
+  .input:focus {
+    outline: none;
+    border-bottom-color: #3CC !important;
+  }
+  .input:hover {
+    border-bottom-color: #dcdcdc;
+  }
+  .input:invalid {
+    box-shadow: none;
+  }
+
+  .pass:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px white inset;
+  }
+
+  .inputButton {
+    position: relative;
+    width: 28%;
+    height: 50px;
+    display: block;
+    margin: 30px 52px;
+    color: white;
+    background-color: #3CC;
+    border: none;
+    -webkit-box-shadow: 0 5px 0 #2CADAD;
+    -moz-box-shadow: 0 5px 0 #2CADAD;
+    box-shadow: 0 5px 0 #2CADAD;
+  }
+  .inputButton:hover {
+    top: 2px;
+    -webkit-box-shadow: 0 3px 0 #2CADAD;
+    -moz-box-shadow: 0 3px 0 #2CADAD;
+    box-shadow: 0 3px 0 #2CADAD;
+  }
+  .inputButton:active {
+    top: 5px;
+    box-shadow: none;
+  }
+  .inputButton:focus {
+    outline: none;
+  }
+
+  .fill1 {
+
+    margin: 3em 0em;
+    padding: 0px 2em;
+    color: #7e7e7e;
+
+    .fitting {
+
+      padding: 12px 0;
+    }
+  }
+  
+  .fill2 {
+
+    margin: 3em 0;
+    padding: 0px 2em;
+
+    .fitting {
+
+      padding: 12px 0;
+    }
+  }
+
+  .mapss {
+
+    overflow:hidden;height:190px;width:366px; margin: 0em -16px;
+  }
+
+  @media screen and (min-device-width : 320px) and (max-device-width : 769px) {
+    
+    .fill1 {
+      margin: 3em -14px;
+      /* padding: 0px 2em; */
+      color: #7e7e7e;
+    }
+
+    .fill2 {
+      margin: 3em 14px;
+      padding: 0px 2em;
+      position: relative;
+      /* left: 2%; */
+
+      .fitting {
+
+        padding: 12px;
+        text-indent: -77px;
+        margin-left: 2em;
+      }
+    }
+
+    .mapss {
+
+      overflow:hidden;height:190px;width:283px; margin: 0em -16px;
+    }
+  }
+}
